@@ -1,4 +1,6 @@
 /*
+Exercise #07
+
 1. Predict the result of these 5 operations without executing them:
 '9' - '5'; // 4
 '19' - '13' + '17'; // 617

@@ -1,4 +1,6 @@
 /*
+Exercise #08
+
 1. Declare a variable 'numNeighbours' based on a prompt input like this: prompt('How many neighbour countries does your country have?');
 2. If there is only 1 neighbour, log to the console: 'Only 1 border!' (use loose equality == for now)
 3. Use an else-if block to log 'More than 1 border' in case 'numNeighbours' is greater than 1

@@ -1,4 +1,6 @@
 /*
+Exercise #10
+
 Use a switch statement to log the following string for the given 'language':
     chinese or mandarin: 'MOST number of native speakers!'
     spanish: '2nd place in number of native speakers'

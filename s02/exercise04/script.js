@@ -1,3 +1,7 @@
+/*
+Exercise #04
+*/
+
 const myCountry = "Spain";
 const myContinent = "Europe";
 const isIsland = false;

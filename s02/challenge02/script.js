@@ -1,4 +1,5 @@
 /*
+Coding challenge #02
 
 Use the BMI example from Challenge #01, and the code you already wrote, and improve it.
 
