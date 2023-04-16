@@ -1,12 +1,35 @@
 "use strict";
 
 /*
-1. There are elections in your country! 
-In a small town, there are only 50 voters.
-Use a for loop to simulate the 50 people voting, by logging a string like this to the console (for numbers 1 to 50): 
-'Voter number 1 is currently voting'
+Exercise #20
+
+1. Add a method called 'describe' to the 'myCountry' object. 
+This method will log a string to the console, similar to the string logged in the previous assignment, but this time using the 'this' keyword.
+
+2. Call the 'describe' method
+
+3. Add a method called 'checkIsland' to the 'myCountry' object. 
+This method will set a new property on the object, called 'isIsland'.
+'isIsland' will be true if there are no neighbouring countries, and false if there are. 
+Use the ternary operator to set the property.
 */
 
-for (let voter = 1; voter <= 50; voter++) {
-    console.log(`Voter number ${voter} es currently voting.`);
-}
+const myCountry = {
+    country: "Spain",
+    capital: "Madrid",
+    language: "Spanish",
+    population: 47,
+    neighbours: ["Portugal", "Francia", "Andorra"],
+
+    describe: function () {
+        return `${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`;
+    },
+
+    checkIsland: function () {
+        this.isIsland = this.neighbours.length === 0;
+        return this.isIsland;
+    },
+};
+
+console.log(myCountry.describe());
+console.log(myCountry.checkIsland());
