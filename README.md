@@ -5,5 +5,6 @@ Código generado en la visualización activa del curso de *Udemy* "*The Complete
 - [s02](/s02): JavaScript fundamentals, part 1
 - [s03](/s03): JavaScript fundamentals, part 2
 - [s05](/s05): Developer skills & editor setup
+- [s06](/s06): HTML & CSS crash course
 
 Curso iniciado el 7 de abril de 2023.
